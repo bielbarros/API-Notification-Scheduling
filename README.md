@@ -28,6 +28,8 @@ Serviço backend para gerenciamento e envio programado de notificações. Implem
 
 ```
 gerenciador.magalums
+├── config
+│   └── DataLoader.java
 ├── controller
 │   └── NotificationController.java
 │   └── dto
@@ -38,8 +40,12 @@ gerenciador.magalums
 │   └── Status.java
 ├── repository
 │   └── NotificationRepository.java
+│   └── ChannelRepository.java
+│   └── StatusRepository.java
 ├── service
-    └── NotificationService.java
+│   └── NotificationService.java
+├── scheduler
+   └── MagaluTaskScheduler.java
 ```
 
 ---
@@ -155,4 +161,6 @@ O servidor será iniciado em: `http://localhost:8080`
 
 ---
 
-> Desenvolvido por [Gabriel Barros].
+> **Gabriel Barros – Full Stack Developer (Java & Angular)**  
+**Email:** [gabrielbarrosg11@gmail.com]  
+**LinkedIn:** [linkedin.com/in/gabriel-sbarros](#)
