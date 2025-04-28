@@ -12,7 +12,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="magalums" options="-parameters" />
+      <module name="magalums" options="-parameters --add-modules jdk.internal.le" />
     </option>
   </component>
 </project>
